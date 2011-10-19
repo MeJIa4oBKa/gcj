@@ -1,0 +1,9 @@
+The module GCJ provides a ramework for making GCJ (Google Code Jam) programs.
+
+The important function is runGCJ, which takes a (parsec) parser, a solver and constructs a
+function taking an input filename and an output filename and then reads and parses the input file
+and writes solutions to the output file in the standard GCJ output format.
+If the output filename is "" (empty string) then the output is written in a test-friendly format to the screen.
+
+
+The subdirectories contain solutions to GCJ problems from the year indicated by the name of the subdirectory.
